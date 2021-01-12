@@ -1,0 +1,61 @@
+﻿<Window x:Class="CS_ASP_020.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_ASP_020"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="850">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="479*"/>
+            <ColumnDefinition Width="363*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFCB73D8" HorizontalAlignment="Left" Height="481" Margin="2,132,0,0" Stroke="Black" VerticalAlignment="Top" Width="353" Grid.Column="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="481" Margin="10,128,0,0" Stroke="White" VerticalAlignment="Top" Width="241" Fill="#FFA5D452">
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+        </Rectangle>
+        <Label Content="Driver Info" HorizontalAlignment="Left" Margin="33,132,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="31" Width="91"/>
+        <Label Content="Driver Name" HorizontalAlignment="Left" Margin="33,187,0,0" VerticalAlignment="Top" Height="26" Width="77"/>
+        <TextBox x:Name="driverTextBox" HorizontalAlignment="Left" Height="24" Margin="33,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Social Security" HorizontalAlignment="Left" Margin="33,258,0,0" VerticalAlignment="Top" Height="26" Width="86"/>
+        <TextBox x:Name="socialTextBox" HorizontalAlignment="Left" Height="23" Margin="33,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="33,335,0,0" VerticalAlignment="Top" Height="26" Width="90"/>
+        <TextBox x:Name="phoneTextBox" HorizontalAlignment="Left" Height="23" Margin="33,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <CheckBox x:Name="fridgeCheck" Content="Refrigerated($0.12 per mile)" HorizontalAlignment="Left" Margin="33,413,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.226,0.85" Height="15" Width="167"/>
+        <Label Content="Start Miles" HorizontalAlignment="Left" Margin="24,467,0,0" VerticalAlignment="Top" Height="26" Width="66"/>
+        <Label Content="End Miles" HorizontalAlignment="Left" Margin="24,522,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+        <TextBox x:Name="startMilesTextBox" HorizontalAlignment="Left" Height="23" Margin="95,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="endMilesTextBox" HorizontalAlignment="Left" Height="23" Margin="95,525,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Rectangle Fill="#FF71FFC5" HorizontalAlignment="Left" Height="479" Margin="260,133,0,0" Stroke="Black" VerticalAlignment="Top" Width="197" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.021"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.562"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Dates Driven" HorizontalAlignment="Left" Margin="308,141,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Height="31" Width="106"/>
+        <Label Content="Date Left" HorizontalAlignment="Left" Margin="326,179,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="66"/>
+        <Calendar x:Name="calendarLeft" HorizontalAlignment="Left" Margin="268,213,0,0" VerticalAlignment="Top" Height="168" Width="179"/>
+        <Label Content="Date Return" HorizontalAlignment="Left" Margin="308,391,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="84"/>
+        <Calendar x:Name="calendarReturn" HorizontalAlignment="Left" Margin="268,425,0,0" VerticalAlignment="Top" Height="168" Width="179"/>
+        <Button Content="Print Driver Ticket" HorizontalAlignment="Left" Margin="75,172,0,0" VerticalAlignment="Top" Width="182" Click="Button_Click" Grid.Column="1" Height="20"/>
+        <Label x:Name="driverLabel" Content="Driver Name: " HorizontalAlignment="Left" Margin="25,213,0,0" VerticalAlignment="Top" Height="26" Width="176" Grid.Column="1"/>
+        <Label x:Name="socialLabel" Content="Social Security Number: " HorizontalAlignment="Left" Margin="25,258,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="253"/>
+        <Label x:Name="phoneLabel" Content="Phone Number: " HorizontalAlignment="Left" Margin="25,294,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="232"/>
+        <Label x:Name="tDOLabel" Content="Total Days Out: " HorizontalAlignment="Left" Margin="25,335,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="176"/>
+        <Label x:Name="payDueLabel" Content="Pay Due: " HorizontalAlignment="Left" Margin="25,377,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="148"/>
+        <Label x:Name="vacationDaysLabel" Content="Vacation Days: " HorizontalAlignment="Left" Margin="25,413,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="194"/>
+        <Label x:Name="totalMilesLabel" Content="Total Miles: " HorizontalAlignment="Left" Margin="25,452,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="194"/>
+        <Image HorizontalAlignment="Left" Height="127" VerticalAlignment="Top" Width="842" Grid.ColumnSpan="2" Source="pexels-kevin-bidwell-2348359 (5).jpg" Stretch="UniformToFill"/>
+
+    </Grid>
+</Window>

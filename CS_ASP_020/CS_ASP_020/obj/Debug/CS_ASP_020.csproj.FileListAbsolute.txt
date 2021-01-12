@@ -1,0 +1,15 @@
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\bin\Debug\CS_ASP_020.exe.config
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\bin\Debug\CS_ASP_020.exe
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\bin\Debug\CS_ASP_020.pdb
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\App.g.cs
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020_MarkupCompile.cache
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020_MarkupCompile.lref
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\MainWindow.baml
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.g.resources
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.Properties.Resources.resources
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.exe
+C:\Users\Owner\source\repos\CS_ASP_020\CS_ASP_020\obj\Debug\CS_ASP_020.pdb
